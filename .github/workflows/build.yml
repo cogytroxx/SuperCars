@@ -1,0 +1,33 @@
+name: Build SuperCars jar
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+      - name: Build jar
+        run: mvn -B package
+      - name: Keep jar as artifact (backup)
+        uses: actions/upload-artifact@v7
+        with:
+          name: SuperCars-jar
+          path: target/SuperCars.jar
+      - name: Publish jar as a Release (direct .jar download)
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: jar-${{ github.run_number }}
+          name: SuperCars jar build ${{ github.run_number }}
+          files: target/SuperCars.jar
+          
