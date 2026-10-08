@@ -1,0 +1,1110 @@
+# SuperCars car list (auto-generated structure; edit freely)
+# speed   : horse movement speed (0.225 = normal horse, 0.6 = fast, 1.0 = hypercar)
+# color   : body block shown for the car (any block material, e.g. RED_CONCRETE)
+# brand   : used for /supercar list <brand> and grouping in the garage menu
+
+settings:
+  allow-pickup: true            # sneak + right click your car to pick it back up
+  exhaust-particles: true
+  max-cars-per-player: 3        # placed at the same time (admins unlimited)
+  use-resource-pack-models: false   # true = car items use item model supercars:<car_id> from your resource pack
+
+cars:
+  # ---- Nissan ----
+  gtr_r35:
+    brand: "Nissan"
+    name: "Nissan GT-R R35 Nismo"
+    speed: 0.68
+    material: GRAY_CONCRETE
+  gtr_r34:
+    brand: "Nissan"
+    name: "Nissan Skyline GT-R R34"
+    speed: 0.62
+    material: LIGHT_BLUE_CONCRETE
+  gtr_r33:
+    brand: "Nissan"
+    name: "Nissan Skyline GT-R R33"
+    speed: 0.58
+    material: BLUE_CONCRETE
+  gtr_r32:
+    brand: "Nissan"
+    name: "Nissan Skyline GT-R R32"
+    speed: 0.56
+    material: GRAY_CONCRETE
+  nissan_z:
+    brand: "Nissan"
+    name: "Nissan Z (2023)"
+    speed: 0.62
+    material: YELLOW_CONCRETE
+  370z_nismo:
+    brand: "Nissan"
+    name: "Nissan 370Z Nismo"
+    speed: 0.6
+    material: ORANGE_CONCRETE
+  silvia_s15:
+    brand: "Nissan"
+    name: "Nissan Silvia S15"
+    speed: 0.55
+    material: WHITE_CONCRETE
+  nissan_r390:
+    brand: "Nissan"
+    name: "Nissan R390 GT1"
+    speed: 0.78
+    material: WHITE_CONCRETE
+  # ---- Toyota ----
+  supra_mk4:
+    brand: "Toyota"
+    name: "Toyota Supra MK4"
+    speed: 0.64
+    material: ORANGE_CONCRETE
+  supra_mk5:
+    brand: "Toyota"
+    name: "Toyota GR Supra"
+    speed: 0.68
+    material: RED_CONCRETE
+  gr_yaris:
+    brand: "Toyota"
+    name: "Toyota GR Yaris"
+    speed: 0.6
+    material: WHITE_CONCRETE
+  gr86:
+    brand: "Toyota"
+    name: "Toyota GR86"
+    speed: 0.57
+    material: BLUE_CONCRETE
+  ae86:
+    brand: "Toyota"
+    name: "Toyota Sprinter Trueno AE86"
+    speed: 0.5
+    material: WHITE_CONCRETE
+  lexus_lfa:
+    brand: "Toyota"
+    name: "Lexus LFA"
+    speed: 0.74
+    material: WHITE_CONCRETE
+  lexus_lc500:
+    brand: "Toyota"
+    name: "Lexus LC 500"
+    speed: 0.65
+    material: BLACK_CONCRETE
+  lexus_rcf:
+    brand: "Toyota"
+    name: "Lexus RC F"
+    speed: 0.64
+    material: LIGHT_GRAY_CONCRETE
+  toyota_gr010:
+    brand: "Toyota"
+    name: "Toyota GR010 Hybrid"
+    speed: 0.85
+    material: RED_CONCRETE
+  # ---- Honda ----
+  nsx_na1:
+    brand: "Honda"
+    name: "Honda NSX NA1"
+    speed: 0.62
+    material: RED_CONCRETE
+  nsx_nc1:
+    brand: "Honda"
+    name: "Honda NSX (2nd gen)"
+    speed: 0.72
+    material: BLUE_CONCRETE
+  civic_type_r:
+    brand: "Honda"
+    name: "Honda Civic Type R"
+    speed: 0.6
+    material: WHITE_CONCRETE
+  s2000:
+    brand: "Honda"
+    name: "Honda S2000"
+    speed: 0.57
+    material: YELLOW_CONCRETE
+  # ---- Mazda ----
+  rx7_fd:
+    brand: "Mazda"
+    name: "Mazda RX-7 FD"
+    speed: 0.62
+    material: RED_CONCRETE
+  rx7_fc:
+    brand: "Mazda"
+    name: "Mazda RX-7 FC"
+    speed: 0.56
+    material: WHITE_CONCRETE
+  mx5:
+    brand: "Mazda"
+    name: "Mazda MX-5 Miata"
+    speed: 0.52
+    material: RED_CONCRETE
+  mazda_787b:
+    brand: "Mazda"
+    name: "Mazda 787B"
+    speed: 0.8
+    material: ORANGE_CONCRETE
+  # ---- Mitsubishi ----
+  lancer_evo_x:
+    brand: "Mitsubishi"
+    name: "Mitsubishi Lancer Evolution X"
+    speed: 0.62
+    material: WHITE_CONCRETE
+  3000gt_vr4:
+    brand: "Mitsubishi"
+    name: "Mitsubishi 3000GT VR-4"
+    speed: 0.58
+    material: BLACK_CONCRETE
+  # ---- Subaru ----
+  wrx_sti:
+    brand: "Subaru"
+    name: "Subaru WRX STI"
+    speed: 0.62
+    material: BLUE_CONCRETE
+  brz:
+    brand: "Subaru"
+    name: "Subaru BRZ"
+    speed: 0.56
+    material: LIGHT_BLUE_CONCRETE
+  # ---- Lamborghini ----
+  lambo_aventador_svj:
+    brand: "Lamborghini"
+    name: "Lamborghini Aventador SVJ"
+    speed: 0.84
+    material: YELLOW_CONCRETE
+  lambo_huracan_performante:
+    brand: "Lamborghini"
+    name: "Lamborghini Huracan Performante"
+    speed: 0.8
+    material: LIME_CONCRETE
+  lambo_revuelto:
+    brand: "Lamborghini"
+    name: "Lamborghini Revuelto"
+    speed: 0.88
+    material: ORANGE_CONCRETE
+  lambo_urus:
+    brand: "Lamborghini"
+    name: "Lamborghini Urus"
+    speed: 0.68
+    material: BLACK_CONCRETE
+  lambo_countach:
+    brand: "Lamborghini"
+    name: "Lamborghini Countach LPI 800-4"
+    speed: 0.8
+    material: WHITE_CONCRETE
+  lambo_gallardo:
+    brand: "Lamborghini"
+    name: "Lamborghini Gallardo"
+    speed: 0.74
+    material: YELLOW_CONCRETE
+  lambo_murcielago:
+    brand: "Lamborghini"
+    name: "Lamborghini Murcielago"
+    speed: 0.76
+    material: ORANGE_CONCRETE
+  lambo_diablo:
+    brand: "Lamborghini"
+    name: "Lamborghini Diablo"
+    speed: 0.74
+    material: RED_CONCRETE
+  lambo_sian:
+    brand: "Lamborghini"
+    name: "Lamborghini Sian FKP 37"
+    speed: 0.86
+    material: GREEN_CONCRETE
+  lambo_centenario:
+    brand: "Lamborghini"
+    name: "Lamborghini Centenario"
+    speed: 0.84
+    material: LIGHT_GRAY_CONCRETE
+  lambo_veneno:
+    brand: "Lamborghini"
+    name: "Lamborghini Veneno"
+    speed: 0.9
+    material: WHITE_CONCRETE
+  lambo_sesto:
+    brand: "Lamborghini"
+    name: "Lamborghini Sesto Elemento"
+    speed: 0.84
+    material: GRAY_CONCRETE
+  lambo_huracan_sto:
+    brand: "Lamborghini"
+    name: "Lamborghini Huracan STO"
+    speed: 0.8
+    material: BLUE_CONCRETE
+  # ---- Ferrari ----
+  ferrari_f8:
+    brand: "Ferrari"
+    name: "Ferrari F8 Tributo"
+    speed: 0.82
+    material: RED_CONCRETE
+  ferrari_488_pista:
+    brand: "Ferrari"
+    name: "Ferrari 488 Pista"
+    speed: 0.82
+    material: RED_CONCRETE
+  ferrari_laferrari:
+    brand: "Ferrari"
+    name: "Ferrari LaFerrari"
+    speed: 0.9
+    material: RED_CONCRETE
+  ferrari_sf90:
+    brand: "Ferrari"
+    name: "Ferrari SF90 Stradale"
+    speed: 0.9
+    material: RED_CONCRETE
+  ferrari_812:
+    brand: "Ferrari"
+    name: "Ferrari 812 Superfast"
+    speed: 0.86
+    material: YELLOW_CONCRETE
+  ferrari_296:
+    brand: "Ferrari"
+    name: "Ferrari 296 GTB"
+    speed: 0.84
+    material: RED_CONCRETE
+  ferrari_enzo:
+    brand: "Ferrari"
+    name: "Ferrari Enzo"
+    speed: 0.86
+    material: RED_CONCRETE
+  ferrari_f40:
+    brand: "Ferrari"
+    name: "Ferrari F40"
+    speed: 0.8
+    material: RED_CONCRETE
+  ferrari_f50:
+    brand: "Ferrari"
+    name: "Ferrari F50"
+    speed: 0.8
+    material: RED_CONCRETE
+  ferrari_458:
+    brand: "Ferrari"
+    name: "Ferrari 458 Italia"
+    speed: 0.78
+    material: RED_CONCRETE
+  ferrari_599gto:
+    brand: "Ferrari"
+    name: "Ferrari 599 GTO"
+    speed: 0.78
+    material: RED_CONCRETE
+  ferrari_purosangue:
+    brand: "Ferrari"
+    name: "Ferrari Purosangue"
+    speed: 0.7
+    material: BLACK_CONCRETE
+  ferrari_roma:
+    brand: "Ferrari"
+    name: "Ferrari Roma"
+    speed: 0.72
+    material: LIGHT_GRAY_CONCRETE
+  ferrari_daytona_sp3:
+    brand: "Ferrari"
+    name: "Ferrari Daytona SP3"
+    speed: 0.88
+    material: RED_CONCRETE
+  ferrari_testarossa:
+    brand: "Ferrari"
+    name: "Ferrari Testarossa"
+    speed: 0.72
+    material: WHITE_CONCRETE
+  ferrari_250gto:
+    brand: "Ferrari"
+    name: "Ferrari 250 GTO"
+    speed: 0.62
+    material: RED_CONCRETE
+  ferrari_812_comp:
+    brand: "Ferrari"
+    name: "Ferrari 812 Competizione"
+    speed: 0.88
+    material: RED_CONCRETE
+  # ---- Bugatti ----
+  bugatti_chiron:
+    brand: "Bugatti"
+    name: "Bugatti Chiron"
+    speed: 0.96
+    material: BLUE_CONCRETE
+  bugatti_veyron:
+    brand: "Bugatti"
+    name: "Bugatti Veyron 16.4"
+    speed: 0.9
+    material: BLUE_CONCRETE
+  bugatti_chiron_ss:
+    brand: "Bugatti"
+    name: "Bugatti Chiron Super Sport 300+"
+    speed: 1.0
+    material: BLACK_CONCRETE
+  bugatti_divo:
+    brand: "Bugatti"
+    name: "Bugatti Divo"
+    speed: 0.94
+    material: BLUE_CONCRETE
+  bugatti_noire:
+    brand: "Bugatti"
+    name: "Bugatti La Voiture Noire"
+    speed: 0.95
+    material: BLACK_CONCRETE
+  bugatti_bolide:
+    brand: "Bugatti"
+    name: "Bugatti Bolide"
+    speed: 1.0
+    material: ORANGE_CONCRETE
+  bugatti_mistral:
+    brand: "Bugatti"
+    name: "Bugatti Mistral"
+    speed: 0.96
+    material: LIGHT_GRAY_CONCRETE
+  bugatti_tourbillon:
+    brand: "Bugatti"
+    name: "Bugatti Tourbillon"
+    speed: 1.0
+    material: GRAY_CONCRETE
+  bugatti_veyron_ss:
+    brand: "Bugatti"
+    name: "Bugatti Veyron Super Sport"
+    speed: 0.94
+    material: ORANGE_CONCRETE
+  bugatti_eb110:
+    brand: "Bugatti"
+    name: "Bugatti EB110"
+    speed: 0.8
+    material: BLUE_CONCRETE
+  # ---- McLaren ----
+  mclaren_p1:
+    brand: "McLaren"
+    name: "McLaren P1"
+    speed: 0.9
+    material: ORANGE_CONCRETE
+  mclaren_720s:
+    brand: "McLaren"
+    name: "McLaren 720S"
+    speed: 0.84
+    material: ORANGE_CONCRETE
+  mclaren_765lt:
+    brand: "McLaren"
+    name: "McLaren 765LT"
+    speed: 0.86
+    material: LIME_CONCRETE
+  mclaren_senna:
+    brand: "McLaren"
+    name: "McLaren Senna"
+    speed: 0.88
+    material: BLACK_CONCRETE
+  mclaren_f1:
+    brand: "McLaren"
+    name: "McLaren F1"
+    speed: 0.86
+    material: YELLOW_CONCRETE
+  mclaren_artura:
+    brand: "McLaren"
+    name: "McLaren Artura"
+    speed: 0.8
+    material: LIGHT_GRAY_CONCRETE
+  mclaren_speedtail:
+    brand: "McLaren"
+    name: "McLaren Speedtail"
+    speed: 0.92
+    material: GRAY_CONCRETE
+  mclaren_gt:
+    brand: "McLaren"
+    name: "McLaren GT"
+    speed: 0.72
+    material: BLUE_CONCRETE
+  mclaren_600lt:
+    brand: "McLaren"
+    name: "McLaren 600LT"
+    speed: 0.8
+    material: ORANGE_CONCRETE
+  mclaren_solus:
+    brand: "McLaren"
+    name: "McLaren Solus GT"
+    speed: 0.9
+    material: GRAY_CONCRETE
+  # ---- Porsche ----
+  porsche_911_gt3rs:
+    brand: "Porsche"
+    name: "Porsche 911 GT3 RS"
+    speed: 0.74
+    material: WHITE_CONCRETE
+  porsche_911_turbo_s:
+    brand: "Porsche"
+    name: "Porsche 911 Turbo S"
+    speed: 0.78
+    material: LIGHT_GRAY_CONCRETE
+  porsche_918:
+    brand: "Porsche"
+    name: "Porsche 918 Spyder"
+    speed: 0.88
+    material: LIGHT_GRAY_CONCRETE
+  porsche_carrera_gt:
+    brand: "Porsche"
+    name: "Porsche Carrera GT"
+    speed: 0.82
+    material: GRAY_CONCRETE
+  porsche_taycan:
+    brand: "Porsche"
+    name: "Porsche Taycan Turbo S"
+    speed: 0.76
+    material: BLUE_CONCRETE
+  porsche_959:
+    brand: "Porsche"
+    name: "Porsche 959"
+    speed: 0.72
+    material: WHITE_CONCRETE
+  porsche_cayman_gt4:
+    brand: "Porsche"
+    name: "Porsche 718 Cayman GT4 RS"
+    speed: 0.68
+    material: YELLOW_CONCRETE
+  porsche_911_gt2rs:
+    brand: "Porsche"
+    name: "Porsche 911 GT2 RS"
+    speed: 0.8
+    material: ORANGE_CONCRETE
+  porsche_mission_x:
+    brand: "Porsche"
+    name: "Porsche Mission X"
+    speed: 0.86
+    material: LIGHT_BLUE_CONCRETE
+  porsche_935:
+    brand: "Porsche"
+    name: "Porsche 935"
+    speed: 0.76
+    material: WHITE_CONCRETE
+  # ---- Pagani ----
+  pagani_huayra:
+    brand: "Pagani"
+    name: "Pagani Huayra"
+    speed: 0.92
+    material: PURPLE_CONCRETE
+  pagani_zonda_r:
+    brand: "Pagani"
+    name: "Pagani Zonda R"
+    speed: 0.9
+    material: LIGHT_GRAY_CONCRETE
+  pagani_utopia:
+    brand: "Pagani"
+    name: "Pagani Utopia"
+    speed: 0.9
+    material: GRAY_CONCRETE
+  pagani_zonda_f:
+    brand: "Pagani"
+    name: "Pagani Zonda F"
+    speed: 0.84
+    material: GRAY_CONCRETE
+  pagani_huayra_bc:
+    brand: "Pagani"
+    name: "Pagani Huayra BC"
+    speed: 0.92
+    material: GREEN_CONCRETE
+  # ---- Koenigsegg ----
+  koenigsegg_jesko:
+    brand: "Koenigsegg"
+    name: "Koenigsegg Jesko Absolut"
+    speed: 1.0
+    material: WHITE_CONCRETE
+  koenigsegg_agera_rs:
+    brand: "Koenigsegg"
+    name: "Koenigsegg Agera RS"
+    speed: 0.98
+    material: ORANGE_CONCRETE
+  koenigsegg_regera:
+    brand: "Koenigsegg"
+    name: "Koenigsegg Regera"
+    speed: 0.96
+    material: GRAY_CONCRETE
+  koenigsegg_gemera:
+    brand: "Koenigsegg"
+    name: "Koenigsegg Gemera"
+    speed: 0.9
+    material: LIGHT_GRAY_CONCRETE
+  koenigsegg_ccx:
+    brand: "Koenigsegg"
+    name: "Koenigsegg CCX"
+    speed: 0.88
+    material: WHITE_CONCRETE
+  koenigsegg_one1:
+    brand: "Koenigsegg"
+    name: "Koenigsegg One:1"
+    speed: 0.97
+    material: BLACK_CONCRETE
+  koenigsegg_cc850:
+    brand: "Koenigsegg"
+    name: "Koenigsegg CC850"
+    speed: 0.95
+    material: RED_CONCRETE
+  # ---- Rimac ----
+  rimac_nevera:
+    brand: "Rimac"
+    name: "Rimac Nevera"
+    speed: 1.0
+    material: LIGHT_BLUE_CONCRETE
+  rimac_concept_one:
+    brand: "Rimac"
+    name: "Rimac Concept One"
+    speed: 0.9
+    material: WHITE_CONCRETE
+  # ---- Ford ----
+  ford_gt:
+    brand: "Ford"
+    name: "Ford GT"
+    speed: 0.82
+    material: BLUE_CONCRETE
+  ford_gt40:
+    brand: "Ford"
+    name: "Ford GT40"
+    speed: 0.72
+    material: BLUE_CONCRETE
+  mustang_gt500:
+    brand: "Ford"
+    name: "Ford Mustang Shelby GT500"
+    speed: 0.7
+    material: BLUE_CONCRETE
+  mustang_boss302:
+    brand: "Ford"
+    name: "Ford Mustang Boss 302"
+    speed: 0.64
+    material: YELLOW_CONCRETE
+  mustang_gt:
+    brand: "Ford"
+    name: "Ford Mustang GT"
+    speed: 0.66
+    material: RED_CONCRETE
+  ford_focus_rs:
+    brand: "Ford"
+    name: "Ford Focus RS"
+    speed: 0.6
+    material: LIGHT_BLUE_CONCRETE
+  ford_gt_mk4:
+    brand: "Ford"
+    name: "Ford GT Mk IV"
+    speed: 0.9
+    material: BLACK_CONCRETE
+  shelby_cobra:
+    brand: "Ford"
+    name: "Ford Shelby Cobra 427"
+    speed: 0.68
+    material: BLUE_CONCRETE
+  # ---- Chevrolet ----
+  corvette_c8_z06:
+    brand: "Chevrolet"
+    name: "Chevrolet Corvette C8 Z06"
+    speed: 0.78
+    material: YELLOW_CONCRETE
+  corvette_zr1:
+    brand: "Chevrolet"
+    name: "Chevrolet Corvette ZR1"
+    speed: 0.84
+    material: ORANGE_CONCRETE
+  corvette_c7:
+    brand: "Chevrolet"
+    name: "Chevrolet Corvette C7 Z06"
+    speed: 0.74
+    material: RED_CONCRETE
+  camaro_zl1:
+    brand: "Chevrolet"
+    name: "Chevrolet Camaro ZL1"
+    speed: 0.7
+    material: BLACK_CONCRETE
+  corvette_c6_zr1:
+    brand: "Chevrolet"
+    name: "Chevrolet Corvette C6 ZR1"
+    speed: 0.76
+    material: LIGHT_GRAY_CONCRETE
+  chevelle_ss:
+    brand: "Chevrolet"
+    name: "Chevrolet Chevelle SS"
+    speed: 0.6
+    material: BLACK_CONCRETE
+  # ---- Dodge ----
+  dodge_demon:
+    brand: "Dodge"
+    name: "Dodge Challenger SRT Demon"
+    speed: 0.74
+    material: RED_CONCRETE
+  dodge_viper_acr:
+    brand: "Dodge"
+    name: "Dodge Viper ACR"
+    speed: 0.78
+    material: BLUE_CONCRETE
+  dodge_charger_hellcat:
+    brand: "Dodge"
+    name: "Dodge Charger Hellcat"
+    speed: 0.68
+    material: PURPLE_CONCRETE
+  dodge_challenger_hellcat:
+    brand: "Dodge"
+    name: "Dodge Challenger Hellcat"
+    speed: 0.68
+    material: ORANGE_CONCRETE
+  dodge_viper_gts:
+    brand: "Dodge"
+    name: "Dodge Viper GTS"
+    speed: 0.74
+    material: BLUE_CONCRETE
+  # ---- Mercedes-AMG ----
+  amg_gt_r:
+    brand: "Mercedes-AMG"
+    name: "AMG GT R"
+    speed: 0.78
+    material: GREEN_CONCRETE
+  amg_one:
+    brand: "Mercedes-AMG"
+    name: "AMG ONE"
+    speed: 0.92
+    material: LIGHT_GRAY_CONCRETE
+  amg_gt_black:
+    brand: "Mercedes-AMG"
+    name: "AMG GT Black Series"
+    speed: 0.82
+    material: GRAY_CONCRETE
+  slr_mclaren:
+    brand: "Mercedes-AMG"
+    name: "SLR McLaren"
+    speed: 0.8
+    material: LIGHT_GRAY_CONCRETE
+  sls_amg:
+    brand: "Mercedes-AMG"
+    name: "SLS AMG"
+    speed: 0.76
+    material: LIGHT_GRAY_CONCRETE
+  amg_c63s:
+    brand: "Mercedes-AMG"
+    name: "C 63 S"
+    speed: 0.68
+    material: WHITE_CONCRETE
+  amg_gt63:
+    brand: "Mercedes-AMG"
+    name: "AMG GT 63 S"
+    speed: 0.74
+    material: BLACK_CONCRETE
+  mercedes_cla45:
+    brand: "Mercedes-AMG"
+    name: "CLA 45 AMG"
+    speed: 0.62
+    material: GRAY_CONCRETE
+  mercedes_vision_gt:
+    brand: "Mercedes-AMG"
+    name: "Vision GT"
+    speed: 0.86
+    material: LIGHT_GRAY_CONCRETE
+  # ---- BMW ----
+  bmw_m3_gtr:
+    brand: "BMW"
+    name: "BMW M3 GTR"
+    speed: 0.72
+    material: LIGHT_BLUE_CONCRETE
+  bmw_m3_e30:
+    brand: "BMW"
+    name: "BMW M3 E30"
+    speed: 0.56
+    material: WHITE_CONCRETE
+  bmw_m3_e46:
+    brand: "BMW"
+    name: "BMW M3 E46"
+    speed: 0.62
+    material: BLUE_CONCRETE
+  bmw_m3_g80:
+    brand: "BMW"
+    name: "BMW M3 Competition"
+    speed: 0.7
+    material: GREEN_CONCRETE
+  bmw_m4_comp:
+    brand: "BMW"
+    name: "BMW M4 Competition"
+    speed: 0.7
+    material: LIME_CONCRETE
+  bmw_m4_csl:
+    brand: "BMW"
+    name: "BMW M4 CSL"
+    speed: 0.74
+    material: YELLOW_CONCRETE
+  bmw_m5_cs:
+    brand: "BMW"
+    name: "BMW M5 CS"
+    speed: 0.74
+    material: ORANGE_CONCRETE
+  bmw_m8:
+    brand: "BMW"
+    name: "BMW M8 Competition"
+    speed: 0.74
+    material: BLUE_CONCRETE
+  bmw_i8:
+    brand: "BMW"
+    name: "BMW i8"
+    speed: 0.7
+    material: WHITE_CONCRETE
+  bmw_m1:
+    brand: "BMW"
+    name: "BMW M1"
+    speed: 0.66
+    material: WHITE_CONCRETE
+  bmw_m2:
+    brand: "BMW"
+    name: "BMW M2"
+    speed: 0.66
+    material: ORANGE_CONCRETE
+  bmw_m6:
+    brand: "BMW"
+    name: "BMW M6 Gran Coupe"
+    speed: 0.7
+    material: BLACK_CONCRETE
+  bmw_z4_m:
+    brand: "BMW"
+    name: "BMW Z4 M40i"
+    speed: 0.62
+    material: RED_CONCRETE
+  bmw_3csl:
+    brand: "BMW"
+    name: "BMW 3.0 CSL"
+    speed: 0.62
+    material: WHITE_CONCRETE
+  bmw_xm:
+    brand: "BMW"
+    name: "BMW XM Label Red"
+    speed: 0.68
+    material: RED_CONCRETE
+  bmw_vision_gt:
+    brand: "BMW"
+    name: "BMW Vision Gran Turismo"
+    speed: 0.9
+    material: LIGHT_GRAY_CONCRETE
+  bmw_m3_e92:
+    brand: "BMW"
+    name: "BMW M3 E92"
+    speed: 0.66
+    material: RED_CONCRETE
+  bmw_m5_e60:
+    brand: "BMW"
+    name: "BMW M5 E60"
+    speed: 0.7
+    material: BLACK_CONCRETE
+  # ---- Audi ----
+  audi_r8_v10:
+    brand: "Audi"
+    name: "Audi R8 V10 Plus"
+    speed: 0.76
+    material: YELLOW_CONCRETE
+  audi_r8_gt:
+    brand: "Audi"
+    name: "Audi R8 GT"
+    speed: 0.76
+    material: LIGHT_GRAY_CONCRETE
+  audi_rs_etron_gt:
+    brand: "Audi"
+    name: "Audi RS e-tron GT"
+    speed: 0.74
+    material: GREEN_CONCRETE
+  audi_rs6:
+    brand: "Audi"
+    name: "Audi RS6 Avant"
+    speed: 0.7
+    material: GRAY_CONCRETE
+  audi_rs7:
+    brand: "Audi"
+    name: "Audi RS7"
+    speed: 0.7
+    material: BLUE_CONCRETE
+  audi_tt_rs:
+    brand: "Audi"
+    name: "Audi TT RS"
+    speed: 0.62
+    material: ORANGE_CONCRETE
+  audi_sport_quattro:
+    brand: "Audi"
+    name: "Audi Sport Quattro"
+    speed: 0.6
+    material: WHITE_CONCRETE
+  audi_rs3:
+    brand: "Audi"
+    name: "Audi RS3"
+    speed: 0.62
+    material: LIME_CONCRETE
+  audi_r18:
+    brand: "Audi"
+    name: "Audi R18 e-tron"
+    speed: 0.86
+    material: WHITE_CONCRETE
+  # ---- Aston Martin ----
+  aston_valkyrie:
+    brand: "Aston Martin"
+    name: "Aston Martin Valkyrie"
+    speed: 0.94
+    material: GREEN_CONCRETE
+  aston_valhalla:
+    brand: "Aston Martin"
+    name: "Aston Martin Valhalla"
+    speed: 0.88
+    material: LIME_CONCRETE
+  aston_db11:
+    brand: "Aston Martin"
+    name: "Aston Martin DB11"
+    speed: 0.72
+    material: BLUE_CONCRETE
+  aston_vantage:
+    brand: "Aston Martin"
+    name: "Aston Martin Vantage"
+    speed: 0.74
+    material: GREEN_CONCRETE
+  aston_vulcan:
+    brand: "Aston Martin"
+    name: "Aston Martin Vulcan"
+    speed: 0.82
+    material: LIGHT_GRAY_CONCRETE
+  aston_one77:
+    brand: "Aston Martin"
+    name: "Aston Martin One-77"
+    speed: 0.8
+    material: LIGHT_GRAY_CONCRETE
+  aston_dbs:
+    brand: "Aston Martin"
+    name: "Aston Martin DBS Superleggera"
+    speed: 0.8
+    material: BLACK_CONCRETE
+  aston_db5:
+    brand: "Aston Martin"
+    name: "Aston Martin DB5"
+    speed: 0.5
+    material: LIGHT_GRAY_CONCRETE
+  aston_db12:
+    brand: "Aston Martin"
+    name: "Aston Martin DB12"
+    speed: 0.76
+    material: GRAY_CONCRETE
+  aston_victor:
+    brand: "Aston Martin"
+    name: "Aston Martin Valour"
+    speed: 0.8
+    material: ORANGE_CONCRETE
+  # ---- Jaguar ----
+  jaguar_f_type_r:
+    brand: "Jaguar"
+    name: "Jaguar F-Type R"
+    speed: 0.7
+    material: BLUE_CONCRETE
+  jaguar_xj220:
+    brand: "Jaguar"
+    name: "Jaguar XJ220"
+    speed: 0.82
+    material: LIGHT_GRAY_CONCRETE
+  jaguar_e_type:
+    brand: "Jaguar"
+    name: "Jaguar E-Type"
+    speed: 0.56
+    material: GREEN_CONCRETE
+  jaguar_cx75:
+    brand: "Jaguar"
+    name: "Jaguar C-X75"
+    speed: 0.84
+    material: ORANGE_CONCRETE
+  # ---- Maserati ----
+  maserati_mc20:
+    brand: "Maserati"
+    name: "Maserati MC20"
+    speed: 0.8
+    material: BLUE_CONCRETE
+  maserati_mc12:
+    brand: "Maserati"
+    name: "Maserati MC12"
+    speed: 0.8
+    material: WHITE_CONCRETE
+  maserati_granturismo:
+    brand: "Maserati"
+    name: "Maserati GranTurismo"
+    speed: 0.7
+    material: LIGHT_GRAY_CONCRETE
+  maserati_ghibli_trofeo:
+    brand: "Maserati"
+    name: "Maserati Ghibli Trofeo"
+    speed: 0.68
+    material: BLACK_CONCRETE
+  # ---- Lotus ----
+  lotus_evija:
+    brand: "Lotus"
+    name: "Lotus Evija"
+    speed: 0.94
+    material: ORANGE_CONCRETE
+  lotus_emira:
+    brand: "Lotus"
+    name: "Lotus Emira"
+    speed: 0.72
+    material: YELLOW_CONCRETE
+  lotus_exige:
+    brand: "Lotus"
+    name: "Lotus Exige"
+    speed: 0.68
+    material: GREEN_CONCRETE
+  lotus_elise:
+    brand: "Lotus"
+    name: "Lotus Elise"
+    speed: 0.6
+    material: YELLOW_CONCRETE
+  lotus_esprit:
+    brand: "Lotus"
+    name: "Lotus Esprit"
+    speed: 0.62
+    material: WHITE_CONCRETE
+  lotus_eletre:
+    brand: "Lotus"
+    name: "Lotus Eletre"
+    speed: 0.68
+    material: GRAY_CONCRETE
+  # ---- Bentley ----
+  bentley_continental_gt:
+    brand: "Bentley"
+    name: "Bentley Continental GT Speed"
+    speed: 0.72
+    material: BLACK_CONCRETE
+  bentley_bacalar:
+    brand: "Bentley"
+    name: "Bentley Bacalar"
+    speed: 0.72
+    material: GREEN_CONCRETE
+  bentley_flying_spur:
+    brand: "Bentley"
+    name: "Bentley Flying Spur"
+    speed: 0.68
+    material: GRAY_CONCRETE
+  bentley_batur:
+    brand: "Bentley"
+    name: "Bentley Batur"
+    speed: 0.78
+    material: BLUE_CONCRETE
+  # ---- Alfa Romeo ----
+  alfa_4c:
+    brand: "Alfa Romeo"
+    name: "Alfa Romeo 4C"
+    speed: 0.64
+    material: RED_CONCRETE
+  alfa_giulia_gta:
+    brand: "Alfa Romeo"
+    name: "Alfa Romeo Giulia GTAm"
+    speed: 0.7
+    material: WHITE_CONCRETE
+  alfa_8c:
+    brand: "Alfa Romeo"
+    name: "Alfa Romeo 8C Competizione"
+    speed: 0.74
+    material: RED_CONCRETE
+  alfa_33_stradale:
+    brand: "Alfa Romeo"
+    name: "Alfa Romeo 33 Stradale"
+    speed: 0.8
+    material: RED_CONCRETE
+  # ---- Tesla ----
+  tesla_roadster:
+    brand: "Tesla"
+    name: "Tesla Roadster (2nd gen)"
+    speed: 0.9
+    material: RED_CONCRETE
+  tesla_model_s_plaid:
+    brand: "Tesla"
+    name: "Tesla Model S Plaid"
+    speed: 0.8
+    material: WHITE_CONCRETE
+  tesla_cybertruck:
+    brand: "Tesla"
+    name: "Tesla Cybertruck"
+    speed: 0.62
+    material: LIGHT_GRAY_CONCRETE
+  # ---- Hypercar Specials ----
+  ssc_tuatara:
+    brand: "Hypercar Specials"
+    name: "SSC Tuatara"
+    speed: 0.98
+    material: WHITE_CONCRETE
+  hennessey_venom_f5:
+    brand: "Hypercar Specials"
+    name: "Hennessey Venom F5"
+    speed: 1.0
+    material: GRAY_CONCRETE
+  zenvo_tsr_s:
+    brand: "Hypercar Specials"
+    name: "Zenvo TSR-S"
+    speed: 0.9
+    material: ORANGE_CONCRETE
+  gordon_murray_t50:
+    brand: "Hypercar Specials"
+    name: "Gordon Murray T.50"
+    speed: 0.94
+    material: BLUE_CONCRETE
+  czinger_21c:
+    brand: "Hypercar Specials"
+    name: "Czinger 21C"
+    speed: 0.96
+    material: LIGHT_GRAY_CONCRETE
+  devel_sixteen:
+    brand: "Hypercar Specials"
+    name: "Devel Sixteen"
+    speed: 1.0
+    material: BLACK_CONCRETE
+  lykan_hypersport:
+    brand: "Hypercar Specials"
+    name: "W Motors Lykan HyperSport"
+    speed: 0.86
+    material: RED_CONCRETE
+  apollo_ie:
+    brand: "Hypercar Specials"
+    name: "Apollo Intensa Emozione"
+    speed: 0.88
+    material: YELLOW_CONCRETE
+  delorean_dmc12:
+    brand: "Hypercar Specials"
+    name: "DeLorean DMC-12"
+    speed: 0.5
+    material: LIGHT_GRAY_CONCRETE
+  de_tomaso_pantera:
+    brand: "Hypercar Specials"
+    name: "De Tomaso Pantera"
+    speed: 0.64
+    material: ORANGE_CONCRETE
+  ariel_atom:
+    brand: "Hypercar Specials"
+    name: "Ariel Atom"
+    speed: 0.72
+    material: RED_CONCRETE
+  noble_m600:
+    brand: "Hypercar Specials"
+    name: "Noble M600"
+    speed: 0.82
+    material: LIGHT_GRAY_CONCRETE
+  spyker_c8:
+    brand: "Hypercar Specials"
+    name: "Spyker C8"
+    speed: 0.74
+    material: YELLOW_CONCRETE
+  mosler_mt900:
+    brand: "Hypercar Specials"
+    name: "Mosler MT900"
+    speed: 0.74
+    material: GRAY_CONCRETE
+  saleen_s7:
+    brand: "Hypercar Specials"
+    name: "Saleen S7"
+    speed: 0.8
+    material: BLUE_CONCRETE
+  pininfarina_battista:
+    brand: "Hypercar Specials"
+    name: "Pininfarina Battista"
+    speed: 0.96
+    material: WHITE_CONCRETE
+  lancia_stratos:
+    brand: "Hypercar Specials"
+    name: "Lancia Stratos"
+    speed: 0.62
+    material: ORANGE_CONCRETE
+  lancia_delta_s4:
+    brand: "Hypercar Specials"
+    name: "Lancia Delta S4"
+    speed: 0.66
+    material: WHITE_CONCRETE
+  vector_w8:
+    brand: "Hypercar Specials"
+    name: "Vector W8"
+    speed: 0.8
+    material: BLACK_CONCRETE
+
+messages:
+  prefix: "&8[&6SuperCars&8] "
+  placed: "&aCar placed! Right click to drive. Sneak + right click to pick it up."
+  no-permission: "&cYou do not have permission."
+  limit: "&cYou already have the maximum number of cars placed."
+  not-owner: "&cThis is not your car."
+  given: "&aGave &e%car% &ato &e%player%&a."
+  unknown-car: "&cUnknown car. Use /supercar list"
+  picked-up: "&aCar picked up."

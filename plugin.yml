@@ -1,0 +1,17 @@
+name: SuperCars
+version: 2.0.0
+main: com.supercars.SuperCarsPlugin
+api-version: '26.2'
+description: Drivable supercars from every brand (GT-R, Supra, Lamborghini, Bugatti, BMW and more) for Paper 26.2
+commands:
+  supercar:
+    description: SuperCars main command
+    usage: /supercar <menu|list|give|remove|reload>
+    aliases: [car, cars]
+permissions:
+  supercars.use:
+    description: Place and drive cars
+    default: true
+  supercars.admin:
+    description: Garage menu, give cars, remove cars, reload
+    default: op
